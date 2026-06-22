@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A first post title — Jane Doe</title>
+  <meta name="description" content="A blog post by Jane Doe." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html#hero" class="nav__logo">JD</a>
+      <ul class="nav__links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li class="nav__item nav__item--dropdown">
+          <a href="index.html#projects" class="nav__dropdown-toggle">Projects ▾</a>
+          <ul class="nav__dropdown">
+            <li><a href="project-one.html">Project One</a></li>
+            <li><a href="project-two.html">Project Two</a></li>
+            <li><a href="project-three.html">Project Three</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="project-page">
+    <div class="container">
+      <a href="index.html#blog" class="back-link">← Back to blog</a>
+
+      <h1 class="project__title">A first <span class="accent">post</span> title</h1>
+      <p class="project__meta">June 2026 · 4 min read</p>
+
+      <div class="project__photo"></div>
+
+      <div class="project__body">
+        <p>
+          Open with a hook — the question or moment that made you want to write
+          this post. Replace all of this placeholder text with your real writing.
+        </p>
+
+        <p>
+          Keep paragraphs short and conversational. This is your space to think
+          out loud about what you're reading, building, or puzzling over.
+        </p>
+
+        <h2>A sub-heading</h2>
+        <p>
+          Break longer posts into sections with headings like this one so they're
+          easy to skim. Add as many paragraphs and headings as you need.
+        </p>
+
+        <h2>Wrapping up</h2>
+        <p>
+          Close with a takeaway, an open question, or a note on what's next.
+        </p>
+      </div>
+
+      <a href="index.html#blog" class="button">← Back to all posts</a>
+    </div>
+  </main>
+
+  <footer class="site-footer band-dark">
+    <div class="container site-footer__inner">
+      <p>© 2026 Jane Doe</p>
+      <a href="mailto:you@example.com">you@example.com</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

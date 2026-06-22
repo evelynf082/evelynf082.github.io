@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evelyn Fang — Researcher</title>
+  <meta name="description" content="The personal homepage of Evelyn Fang — researcher, engineer, and artist." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#hero" class="nav__logo">EF</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li class="nav__item nav__item--dropdown">
+  <a href="#projects" class="nav__dropdown-toggle">Projects ▾</a>
+  <ul class="nav__dropdown">
+    <li><a href="project-one.html">Project One</a></li>
+    <li><a href="project-two.html">Project Two</a></li>
+    <li><a href="project-three.html">Project Three</a></li>
+  </ul>
+</li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero__content">
+        <p class="hero__intro">Hi, my name is</p>
+        <h1 class="hero__name">Evelyn <span class="accent">Fang</span>.</h1>
+        <p class="hero__tagline">Researcher, engineer &amp; artist.</p>
+        <!--<p class="hero__blurb">-->
+          <!--I study questions and ideas that I can't stop thinking about, and I write about
+          what I find along the way. Welcome to my corner of the web.-->
+        </p>
+        <a href="mailto:efang082@gmail.com" class="button">Get in touch</a>
+      </div>
+      <div class="hero__media">
+        <img class="hero__photo" src="images/me.PNG" alt="Evelyn Fang" />
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about" class="section band-dark">
+      <div class="container about__inner">
+        <div class="about__text">
+          <h2 class="section__title">Here's a little bit <span class="accent">about me</span></h2>
+          <p>
+            You can usually find me practicing flute, painting, or spending far too long making handmade gifts for friends.
+          </p>
+
+          <p>
+            I design CAD, hardware, and electrical systems for my FIRST Tech Challenge robotics team.
+          </p>
+
+          <p>
+            Outside of robotics, I teach STEM through libraries and community programs, helping younger students explore engineering and design.
+          </p>
+
+          <p>
+            Lately, I've been researching molecular motors, creating my own design for a nanoscale cargo-sorting robot out of DNA origami.
+         </p>
+        </div>
+        <div class="about__photo"></div>
+      </div>
+    </section>
+
+    <!-- RESEARCH INTERESTS -->
+    <section id="research" class="section band-sand">
+      <div class="container">
+        <h2 class="section__title section__title--center">What I'm <span class="accent">curious</span> about</h2>
+        <!--<p class="section__lead">A few of the threads I keep pulling on.</p> -->
+        <ul class="pills">
+          <li>Machine Learning</li>
+          <li>Robotics</li>
+          <li>Human-Centered Design</li>
+          <li>Mechanical Engineering</li>
+          <li>STEM Education</li>
+          <li>Nanotechnology</li>
+          <li>Engineering Ethics </li>
+          <li>3D Printing</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title section__title--center">Projects</h2>
+        <div class="projects__grid">
+
+          <article class="card">
+            <h3 class="card__title">Project One</h3>
+            <p class="card__desc">A short sentence describing what this project is and why it's interesting.</p>
+            <ul class="card__tags">
+              <li>Python</li>
+              <li>Data</li>
+            </ul>
+            <a href="project-one.html" class="card__link">View project</a>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Project Two</h3>
+            <p class="card__desc">A short sentence describing what this project is and why it's interesting.</p>
+            <ul class="card__tags">
+              <li>R</li>
+              <li>Modeling</li>
+            </ul>
+            <a href="project-two.html" class="card__link">View project</a>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Geoengineering Paper</h3>
+            <p class="card__desc"> My first serious research paper ever! Although I knew nothing prior about geoengineering (I hardly knew what the word meant), I wanted to explore this intersection between engineering and ethics.</p>
+            <ul class="card__tags">
+              <li>Engineering Ethics</li>
+            </ul>
+            <a href="project-three.html" class="card__link">View project</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONAL BLOG -->
+    <section id="blog" class="section band-sand">
+      <div class="container">
+        <h2 class="section__title section__title--center">From the <span class="accent">Blog</span></h2>
+        <p class="section__lead">Occasional notes on what I'm reading, building, and thinking about.</p>
+        <div class="blog__grid">
+
+          <article class="post">
+            <p class="post__date">June 2026</p>
+            <h3 class="post__title">A first post title</h3>
+            <p class="post__excerpt">A short teaser for the post — a sentence or two that makes someone want to click through and read the rest.</p>
+            <a href="post-one.html" class="post__link">Read more →</a>
+          </article>
+
+          <article class="post">
+            <p class="post__date">May 2026</p>
+            <h3 class="post__title">Another thing I learned</h3>
+            <p class="post__excerpt">A short teaser for the post — a sentence or two that makes someone want to click through and read the rest.</p>
+            <a href="post-two.html" class="post__link">Read more →</a>
+          </article>
+
+          <article class="post">
+            <p class="post__date">April 2026</p>
+            <h3 class="post__title">On a question I'm chewing on</h3>
+            <p class="post__excerpt">A short teaser for the post — a sentence or two that makes someone want to click through and read the rest.</p>
+            <a href="post-three.html" class="post__link">Read more →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer band-dark">
+    <div class="container site-footer__inner">
+      <p>© 2026 Evelyn Fang</p>
+      <a href="mailto:you@example.com">you@example.com</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
